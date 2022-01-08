@@ -15,10 +15,10 @@ To test a reasonable method of sharing variables between VIs and/or projects.
 
 * A few variables (like spill ID, BOS & EOS)
 * With a letency of 0.5 seconds?
-** Should be fine for VIs on the target computer.
-** Not fine for VIs on the NMR computer?  0.1 s?
+    * Should be fine for VIs on the target computer.
+    * Not fine for VIs on the NMR computer?  0.1 s?
 * On local computer, not over network?
-** Actually the commnication over network will be necessary for the NMR computer?
+    * Actually the commnication over network will be necessary for the NMR computer?
 
 ## Desired Specification
 
