@@ -42,4 +42,12 @@ To test a reasonable method of sharing variables between VIs and/or projects.
 ## Tentative Conclusion
 
 * All the methods tested are possible
-* 
+* I prefer the TCP/IP connection since only it satisfies the desired spec.  The usage is for example;
+    * Pack the server function into a sub-VI and add it to `bos_eos_mostreal_atBOS.vi`.
+    * Copy the client sub-VI (`spill_param_tcp_query.vi`) to each client VI/project.
+
+
+## To-Do List
+
+* Implement a ``push''-type TCP/IP connection,
+  in which the server sends all clients spill ID *when BOS rises*.
