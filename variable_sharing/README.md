@@ -17,7 +17,7 @@ To test a reasonable method of sharing variables between VIs and/or projects.
 * With a letency of 0.5 seconds?
     * Should be fine for VIs on the target computer.
     * Not fine for VIs on the NMR computer?  0.1 s?
-* On local computer, not over network?
+* Communication on local computer and also over network.
     * Actually the commnication over network will be necessary for the NMR computer?
 
 ## Desired Specification
@@ -36,18 +36,15 @@ To test a reasonable method of sharing variables between VIs and/or projects.
     * Client projects cannot be opened nor executed without lvlib.
 1. `with_tcp_ip`:  Using the TCP/IP communication.
     * The network address+port and the format of communication strings have to be matched between server and client.
-    * The over-network communication should be possible.
+    * The over-network communication is possible.
 
 
 ## Tentative Conclusion
 
 * All the methods tested are possible
 * I prefer the TCP/IP connection since only it satisfies the desired spec.  The usage is for example;
-    * Pack the server function into a sub-VI and add it to `bos_eos_mostreal_atBOS.vi`.
-    * Copy the client sub-VI (`spill_param_tcp_query.vi`) to each client VI/project.
 
 
 ## To-Do List
 
-* Implement a ``push''-type TCP/IP connection,
-  in which the server sends all clients spill ID *when BOS rises*.
+* n/a
