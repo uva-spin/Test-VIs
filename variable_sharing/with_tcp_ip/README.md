@@ -3,6 +3,9 @@
 The variables sent over TCP/IP are `BOS` (boolean), `EOS` (boolean) and `spill_id` (integer).
 They are sent as an ASCII string.
 
+TCP ports of the server-side computer has to be opened via `Firewall Inbound Rules`.
+For example, we create a new rule named `E1039LVSpill` to open ports 9900-9999.
+
 
 ## Communication Flow
 
