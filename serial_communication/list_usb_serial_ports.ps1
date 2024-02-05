@@ -42,6 +42,7 @@ echo "    COM18  FTDIBUS\VID_0403+PID_6001+AB0PFECRA  Gas Analyzer BGA244"
 echo "    COM35  FTDIBUS\VID_0403+PID_6001+AB0MSAYFA  MaxiGauge"
 echo "    COM 6  USB\VID_0525&PID_A4A7\1&2D12BED1&0   Magnet PS"
 echo "    COM36  FTDIBUS\VID_0403+PID_6001+AB0NXJH7A  Magnet PS Shim Relay"
+echo "    COM37  FTDIBUS\VID_0403+PID_6001+AB0PESVJA  THCD-400 for QT"
 
 echo ""
 echo "Available devices at present:"
